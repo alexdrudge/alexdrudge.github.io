@@ -1,12 +1,16 @@
+// var leftBuffer;
+// var rightBuffer;
+
 function setup() {
-  createCanvas(400, 400);
+    createCanvas(600, 600);
 }
 
 function draw() {
-  if (mouseIsPressed) {
-    fill(50);
-  } else {
-    fill(0);
+  background(0, 255, 0);
+
+  var i;
+  for (i = 1; i < 6; i++) {
+    line(i * 100, 0, i * 100, 600)
+    line(0, i * 100, 600, i * 100)
   }
-  ellipse(mouseX, mouseY, 80, 80);
 }
