@@ -1,6 +1,3 @@
-// var leftBuffer;
-// var rightBuffer;
-
 function setup() {
     createCanvas(600, 600);
 }
